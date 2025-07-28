@@ -5,7 +5,7 @@ Plugin for buildkite to perform a simple git clone of an extra repository at pos
 ```
 - label: Some command
     plugins:
-      - first-aml/git-clone:
+      - equinixmetal-buildkite/git-clone:
           repository: git@github.com:first-aml/git-clone-buildkite-plugin.git
 ```
 
@@ -14,7 +14,7 @@ Plugin for buildkite to perform a simple git clone of an extra repository at pos
 ```
 - label: Some command
     plugins:
-      - first-aml/git-clone:
+      - equinixmetal-buildkite/git-clone:
           repository: git@github.com:first-aml/git-clone-buildkite-plugin.git
           branch: develop
 ```
